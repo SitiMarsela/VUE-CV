@@ -43,6 +43,8 @@ defineProps({
 </div>
 </div>
 </div>
+
+
   
 
 </template>
@@ -78,6 +80,11 @@ h2{
 h5{
  color: rgb(110, 110, 110);
   font-size: 1rem;
+}
+
+.ny {
+  padding-left: 3rem;
+  padding-top: 3rem;
 }
 h1 {
   font-weight: 500;

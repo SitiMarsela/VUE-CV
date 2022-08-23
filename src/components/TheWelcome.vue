@@ -1,50 +1,52 @@
-<!-- <script setup>
+<script setup>
 import WelcomeItem from './WelcomeItem.vue'
-</script> -->
+</script>
 
-<template>
+<template> 
+<!-- <footer>
+  <div class="jy">
+    <h5>Copyright ©2022 SitiMarsela</h5>
+  </div>
 
-<!-- <div class="huy">
-<div class="role">
-  <h2>Bidang</h2>
-  <h5>FrontEnd</h5>
-</div>
+  <div class="kl">
+    <h5>CVSela</h5>
+      <div class="jj">
+        <a href="/profile">Profile</a>
+        <a href="/skill">Skill</a>
+      </div>
+  </div>
+  
+</footer> -->
+</template> 
 
-<div class="sela">
-  <h2>Alamat</h2>
-  <h5>Kp. Areman Rt09/Rw08</h5>
-</div>
-
-<div class="email">
-  <h2>Email</h2>
-  <h5>sitimarsela939@gmail.com</h5>
-</div>
-
-<div class="hp">
-  <h2>No.HP</h2>
-  <h5>089523029795</h5>
-</div>
-</div> -->
-
-</template>
 
 <style scoped>
-.huy{
-  margin-top: 5rem;
-  display: flex;
-  gap: 7rem;
-  padding-bottom: 2rem;
+/* h5{
   padding-left: 3rem;
+  padding-bottom: 2rem;
+  color: darkgrey;
+  padding-right: 2rem;
 }
 
-h2{
-  font-size: 3rem;
-  color: rgb(73, 158, 123);
-  margin-bottom: 2rem;
-  font-family: 'Times New Roman', Times, serif;
+a{
+  color: dimgrey;
+  padding-right: 2rem;
 }
 
-h5{
-  color: rgb(226, 238, 234);
+footer{
+  display: flex;
 }
+.kl{
+  display: flex;
+}
+
+.jy{
+  padding-right: 35rem;
+} */
 </style>
+
+
+
+
+
+

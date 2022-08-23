@@ -5,14 +5,16 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
 
-<center>
-  <nav>
+<nav></nav>
+
+ 
+
+     
+<div class="ono">
+   <nav>
       <RouterLink to="/profile">Profile</RouterLink>
       <RouterLink to="/skill">Skill</RouterLink>
   </nav>
-</center>
-     
-  <div class="ono">
   <header>
   <img alt="Vue logo" class="logo" src="@/assets/potosela.jpg" width="190" height="250" />
     <div class="wrapper">
@@ -36,10 +38,20 @@ import HelloWorld from './components/HelloWorld.vue'
 header {
   line-height: 1.5;
   max-height: 100vh;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   margin-left: 2rem;
   margin-right: 2rem;
 
+}
+
+h1{
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
+
+h5{
+  padding-top: 8rem;
+  padding-left: 3rem;
 }
 .logo {
   display: block;
@@ -50,9 +62,10 @@ header {
 nav {
   width: 80rem;
   font-size: 12px;
-  margin-top: 2rem;
-  background-color: rgb(255, 255, 255);
-  margin-bottom: 2rem;
+  /* margin-top: 2rem; */
+  /* background-color: rgb(255, 255, 255); */
+  /* margin-bottom: 2rem; */
+  /* padding-left: 5rem; */
   
 }
 
@@ -67,8 +80,9 @@ nav a.router-link-exact-active:hover {
 
 nav a {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0 2rem 0 2rem;
   border-left: 1px solid var(--color-border);
+  padding-left: 5rem;
 }
 
 nav a:first-of-type {
@@ -97,7 +111,7 @@ nav a:first-of-type {
 
   nav {
     text-align: left;
-    margin-left: -2rem;
+    /* margin-left: -2rem; */
     font-size: 1rem;
     padding: 1rem 0;
   }
