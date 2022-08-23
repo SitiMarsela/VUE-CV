@@ -110,7 +110,19 @@ h3 {
     <div class="progress">
      <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" aria-label="Success striped example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
     </div>
+    <br>
+    <h3>Wordpress</h3>
+    <div class="progress">
+     <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
     </div>
+    <br>
+    <h3>Laravel</h3>
+    <div class="progress">
+     <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-label="Success striped example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+    </div>
+    </div>
+
+
     <div class="expe">
       <h1 class="lela">My experience</h1>
       <div class="fix">
