@@ -88,6 +88,7 @@ h3 {
 
 
 <template>
+<div class="content">
 <div class="skill">
     <h1 class="dudung"> My Skills</h1>
     <h3>HTML</h3>
@@ -110,33 +111,73 @@ h3 {
      <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" aria-label="Success striped example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
     </div>
     </div>
+    <div class="expe">
+      <h1 class="lela">My experience</h1>
+      <div class="fix">
+        <ul>
+          <li>Membuat Halam Website menggunakan css native</li>
+          <li>Membuat Halam Website menggunakan Bootsrap</li>
+          <li>Membuat desain UI mobile dan web di figma</li>
+          <li>Membuat Halam Website menggunakan wordpress</li>
+          <li>Membuat Halam Website menggunakan wordpress</li>
+        </ul>
+      </div>
+    </div>
+</div>
+
 </template>
 
 <style scoped>
 .dudung{
-  text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(53, 117, 177);
   margin-bottom: 2rem;
   font-size: 4rem;
+}
+
+.lela{
+  color: rgb(53, 117, 177);
+  font-size: 4rem;
+}
+
+.fix{
+  padding-top: 3.5rem;
+}
+
+.expe{
+  padding-top: 2rem;
+}
+
+.content{
+  display: flex;
+  gap: 0rem;
 }
 
 @media (min-width: 1024px) {
   .skill {
     min-height: 22rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-right: 25rem;
+    padding-right: 5rem;
+    margin-left: 2rem;
+    padding-bottom: 4rem;
     
-    /* display: flex; */
-    /* align-items: center; */
   }
 }
 
-.sip{
+/* .sip{
   display: flex ;
+} */
+
+.progress{
+  width: 30rem;
+}
+h3{
+  color: rgb(53, 117, 177);
 }
 
-h3{
-  color: rgb(26, 59, 48);
+li{
+  list-style-type: initial;
+  color: rgb(53, 117, 177);
+  padding-bottom: 1.5rem;
+  font-size: 20px;
 }
 </style>

@@ -53,7 +53,8 @@ defineProps({
   margin-right: 60px;
 }
 .content{
-  margin-top: 40px;
+  margin-top: 60px;
+  padding-left: 2rem;
 }
 .oiy{
   display: flex;
@@ -69,36 +70,38 @@ defineProps({
 
 h2{
   font-size: 1.7rem;
-  color: rgb(73, 158, 123);
+  color: rgb(53, 117, 177);
   margin-bottom: 1rem;
 
 }
 
 h5{
-  color: rgb(226, 238, 234);
+ color: rgb(110, 110, 110);
   font-size: 1rem;
 }
 h1 {
   font-weight: 500;
   font-size: 4rem;
   top: -10px;
+  
 }
 
 h4 {
   font-size: 1.6rem;
-  color: rgb(73, 158, 123);
+  color: rgb(18, 60, 73);
 }
 
 .nv{
   display: flex;
+  padding-top: 2rem;
 }
 p{
-  color: aliceblue;
+  color: rgb(110, 110, 110);
 }
 
 .greetings{
   width: 30rem;
-  height: 20rem;
+  height: 25rem;
 }
 .greetings h1,
 .greetings h3 {
@@ -113,6 +116,7 @@ p{
 }
 
 .green{
-  color: rgb(255, 255, 255);
+ color: rgb(53, 117, 177);
+ padding-top: 2rem;
 }
 </style>

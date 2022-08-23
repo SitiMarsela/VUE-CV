@@ -28,10 +28,10 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <style scoped>
 .ono{
-  background-color:aquamarine ;
+  background-color:rgb(255, 255, 255) ;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
   border-radius: 2rem;
+  
 }
 header {
   line-height: 1.5;
@@ -39,16 +39,12 @@ header {
   margin-top: 1rem;
   margin-left: 2rem;
   margin-right: 2rem;
-  padding-top: 3rem;
 
 }
-
 .logo {
   display: block;
-  margin: 0 auto 2rem;
-  margin-top: 1rem;
   border-radius: 2rem;
-
+  padding-top: -50px;
 }
 
 nav {
@@ -88,12 +84,15 @@ nav a:first-of-type {
 
   .logo {
     margin: 0 2rem 0 0;
+    padding-top: -50px;
   }
 
   header .wrapper {
+    margin-top: 50px;
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
+    color: rgb(18, 60, 73);
   }
 
   nav {
