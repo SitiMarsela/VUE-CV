@@ -125,7 +125,7 @@ h3 {
     </div>
 </div>
 
-<!-- <footer>
+<footer>
   <div class="jy">
     <h5>Copyright ©2022 SitiMarsela</h5>
   </div>
@@ -138,7 +138,7 @@ h3 {
       </div>
   </div>
   
-</footer> -->
+</footer>
 </template>
 
 <style scoped>
@@ -207,7 +207,7 @@ a{
   padding-right: 2rem;
 }
 
-/* footer{
+footer{
   display: flex;
 }
 .kl{
@@ -216,5 +216,5 @@ a{
 
 .jy{
   padding-right: 35rem;
-} */
+}
 </style>

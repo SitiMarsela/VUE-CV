@@ -70,7 +70,6 @@ nav {
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
   color: black;
 }
 
@@ -83,6 +82,7 @@ nav a {
   padding: 0 2rem 0 2rem;
   border-left: 1px solid var(--color-border);
   padding-left: 5rem;
+  font-size: 1.5rem;
 }
 
 nav a:first-of-type {

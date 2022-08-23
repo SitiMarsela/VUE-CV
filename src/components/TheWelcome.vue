@@ -3,7 +3,7 @@ import WelcomeItem from './WelcomeItem.vue'
 </script>
 
 <template> 
-<!-- <footer>
+<footer>
   <div class="jy">
     <h5>Copyright ©2022 SitiMarsela</h5>
   </div>
@@ -16,12 +16,12 @@ import WelcomeItem from './WelcomeItem.vue'
       </div>
   </div>
   
-</footer> -->
+</footer>
 </template> 
 
 
 <style scoped>
-/* h5{
+h5{
   padding-left: 3rem;
   padding-bottom: 2rem;
   color: darkgrey;
@@ -42,7 +42,7 @@ footer{
 
 .jy{
   padding-right: 35rem;
-} */
+}
 </style>
 
 
